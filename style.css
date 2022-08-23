@@ -1,0 +1,60 @@
+body {
+  display: grid;
+  place-content: center;
+}
+
+.element {
+  background: white;
+  display: flex;
+  width: 256px;
+  height: 1fr;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  gap: 1rem;
+  padding-bottom: 40px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  padding-top: 0.5rem;
+}
+
+h1,
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* General Style */
+
+body {
+  font-family: Outfit;
+  background: hsl(212, 45%, 89%);
+  padding: 0px;
+  width: 1440px;
+  height: 900px;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 20px;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+h1,
+p,
+body {
+  margin: 0px;
+}
