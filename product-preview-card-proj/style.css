@@ -1,0 +1,30 @@
+/* General Style */
+
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: hsl(30, 38%, 92%);
+}
+
+h1 {
+  font-size: 20px;
+  font-family: Fraunces;
+  color: hsl(212, 21%, 14%);
+}
+
+.preco {
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+}
+
+a {
+  background: hsl(158, 36%, 37%);
+  text-decoration: none;
+  color: white;
+}
+
+.element img {
+  max-width: 100%;
+}
