@@ -1,56 +1,119 @@
+.grid {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+}
+
+.element {
+  display: grid;
+  width: 600px;
+  grid-template-columns: 1fr 1fr;
+  margin: auto auto;
+  background: white;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  padding: 30px;
+  text-align: left;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.promo {
+  place-self: center;
+}
+
+.money {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  gap: 20px;
+}
+
+.product {
+  object-fit: cover;
+  height: 453px;
+  width: 310.5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 /* General Style */
 
 body {
   font-family: sans-serif;
   margin: 0px;
-  width: 100vw;
-  height: 100vh;
   background: hsl(30, 38%, 92%);
 }
 
 h1 {
   font-size: 2rem;
-  font-family: Fraunces;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
   color: hsl(212, 21%, 14%);
 }
 
 .desc2 {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .desc1 {
-  font-size: 12px;
+  font-size: 0.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   color: hsl(228, 12%, 48%);
 }
 
-.preco {
-  font-family: Fraunces;
+.price {
+  display: block;
+  font-family: "Fraunces", serif;
   font-size: 2rem;
+  font-weight: 700;
   color: hsl(158, 36%, 37%);
+}
+
+.icon {
+  display: grid;
+  place-self: center;
 }
 
 .promo {
   color: hsl(228, 12%, 48%);
   text-decoration: line-through;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 a {
   background: hsl(158, 36%, 37%);
   text-decoration: none;
   color: white;
-  display: block;
-  padding: 15px 40px;
+  display: flex;
+  padding: 15px 20px;
   text-align: center;
+  gap: 10px;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  border-radius: 8px;
 }
 
 .element img {
   max-width: 100%;
+  display: block;
 }
 
-.element {
-  display: grid;
-  width: 512px;
-  grid-template-columns: 1fr 1fr;
+.money,
+.desc1,
+.desc2,
+h1,
+.price,
+.promo {
+  margin: 0px;
 }
