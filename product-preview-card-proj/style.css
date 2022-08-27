@@ -1,12 +1,12 @@
 .grid {
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
   display: grid;
 }
 
 .element {
   display: grid;
-  width: 600px;
+  max-width: 600px;
   grid-template-columns: 1fr 1fr;
   margin: auto auto;
   background: white;
