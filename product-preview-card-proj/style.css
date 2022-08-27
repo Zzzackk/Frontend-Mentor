@@ -114,6 +114,7 @@ a {
 .desc2,
 h1,
 .price,
-.promo {
+.promo,
+.product{
   margin: 0px;
 }
