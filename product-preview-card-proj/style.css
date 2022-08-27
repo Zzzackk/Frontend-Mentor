@@ -18,7 +18,7 @@
   padding: 30px;
   text-align: left;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
 }
 
 .promo {
@@ -34,8 +34,8 @@
 
 .product {
   object-fit: cover;
-  min-height: 458px;
-  min-width: 315.5px;
+  min-height: 453px;
+  min-width: 310.5px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -53,7 +53,7 @@ h1 {
   font-family: "Fraunces", serif;
   font-weight: 700;
   color: hsl(212, 21%, 14%);
-  min-width: fit-content;
+  min-width: 218px;
 }
 
 .desc2 {
