@@ -1,6 +1,6 @@
 .grid {
-  min-width: 100vw;
-  min-height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
   display: grid;
 }
 
@@ -18,7 +18,7 @@
   padding: 30px;
   text-align: left;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
 }
 
 .promo {
@@ -34,7 +34,7 @@
 
 .product {
   object-fit: cover;
-  min-height: 453px;
+  height: 453px;
   min-width: 310.5px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -53,7 +53,7 @@ h1 {
   font-family: "Fraunces", serif;
   font-weight: 700;
   color: hsl(212, 21%, 14%);
-  min-width: 218px;
+  line-height: 1;
 }
 
 .desc2 {
@@ -118,4 +118,30 @@ h1,
 .promo,
 .product{
   margin: 0px;
+}
+
+@media (max-width: 600px) {
+  .element {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+  }
+
+  .product {
+    width: 350px;
+    max-height: 275px;
+    object-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .info {
+    max-width: 350px;
+    padding: 25px;
+    gap: 15px;
+  }
+
+  .desc2 {
+    padding-right: 5px;
+  }
 }
